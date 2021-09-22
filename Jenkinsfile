@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('4') {
-      steps {
-        git(url: 'https://github.com/mendezfr/hlc.git', branch: 'scripting')
-      }
-    }
-
   }
 }
